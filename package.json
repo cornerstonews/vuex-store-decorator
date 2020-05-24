@@ -1,0 +1,45 @@
+{
+    "name": "vuex-store-decorator",
+    "version": "1.0.0",
+    "description": "Convert typescript class to vuex store with annotations",
+    "main": "lib/vuex-store-decorator.js",
+    "module": "lib/vuex-store-decorator.js",
+    "types": "lib/vuex-store-decorator.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rimraf js ./lib && mkdir lib",
+        "prebuild": "npm run clean",
+        "build": "tsc",
+        "prebuild-rollup": "npm run build",
+        "build-rollup": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cornerstonews/vuex-store-decorator.git"
+    },
+    "keywords": [
+        "vuex",
+        "typescript",
+        "annotations"
+    ],
+    "author": "KP",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/cornerstonews/vuex-store-decorator/issues"
+    },
+    "homepage": "https://github.com/cornerstonews/vuex-store-decorator#readme",
+    "dependencies": {
+        "vue": "^2.6.11",
+        "vuex": "^3.4.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^3.0.0",
+        "@typescript-eslint/parser": "^3.0.0",
+        "eslint": "^7.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.3",
+        "prettier": "^2.0.5",
+        "rollup": "^2.10.8",
+        "typescript": "^3.9.3"
+    }
+}

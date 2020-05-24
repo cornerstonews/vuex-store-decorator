@@ -1,0 +1,13 @@
+{
+    "arrowParens": "always",
+    "overrides": [
+        {
+            "files": [".prettierrc", "*.json"],
+            "options": { "parser": "json" }
+        }
+    ],
+    "printWidth": 160,
+    "semi": true,
+    "tabWidth": 4,
+    "trailingComma": "none"
+}

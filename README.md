@@ -1,2 +1,2 @@
-# vuex-store-plugin
-Covert regular typescript class to vuex store
+# vuex-store-decorator
+Covert regular typescript class to vuex store with annotations
